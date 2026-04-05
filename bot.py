@@ -14,7 +14,7 @@ import statistics
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
 
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN", "PUT_YOUR_TOKEN_HERE")
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN", "8655513468:AAFld0EWAHvPAUbN-y1-NMWhb8irJgRmthM")
 ODDS_API_KEY = os.getenv("ODDS_API_KEY", "PUT_YOUR_ODDS_KEY_HERE")
 MY_CHAT_ID = os.getenv("MY_CHAT_ID", "PUT_YOUR_CHAT_ID_HERE")
 
